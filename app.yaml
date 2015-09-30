@@ -1,0 +1,17 @@
+application: hello-phpeste
+version: 1
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /hello
+  script: helloworld.php
+
+- url: /count
+  script: countview.php
+
+- url: /writefile
+  script: writefile.php
+
+- url: /db
+  script: database.php
